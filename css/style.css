@@ -1,0 +1,231 @@
+/* 
+ font-family: 'Inter', sans-serif;
+font-family: 'Manrope', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+li {
+  list-style-type: none;
+}
+.para_style {
+  color: #3a3a3a;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 600;
+}
+.card_para_style {
+  color: #787885;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 143%;
+  letter-spacing: 0.252px;
+  max-width: 144px;
+}
+.card_price_style {
+  color: rgba(0, 0, 0, 0.87);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 11px;
+  line-height: 150%;
+}
+.card_rating_style {
+  color: #5e6366;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0.1px;
+}
+.card_heading_style {
+  color: #18191f;
+  font-family: Poppins;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 40px;
+  margin: 16px 0 6px;
+}
+.primary_button_style {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 10px 24px;
+  border-radius: 41px;
+  background: #e02c6d;
+}
+/* common shared css */
+/* start header_area */
+.header_area {
+  padding: 50px 0;
+}
+/* navigation */
+.bg-body-tertiary {
+  background: none !important;
+}
+.logo {
+  color: #3a3a3a;
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 700;
+}
+.navbar-nav .nav-item .nav-link {
+  color: #3a3a3a;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 600;
+}
+.navbar-nav .nav-item {
+  margin-right: 34px;
+}
+.navbar {
+  padding: 0 !important;
+}
+/* banner_section */
+.banner_section {
+  padding: 50px 0;
+}
+.banner_title {
+  color: #3a3a3a;
+  font-family: Poppins;
+  font-size: 52px;
+  font-weight: 700;
+  line-height: 70px;
+  margin-bottom: 16px;
+}
+.banner_content .para_style {
+  margin-bottom: 16px;
+  max-width: 505px;
+}
+.banner_content .primary_button_style i {
+  margin-left: 8px;
+}
+.banner_footer {
+  padding: 40px 0;
+  border: 1px solid transparent;
+  border-image: linear-gradient(
+    135deg,
+    rgba(192, 204, 218, 0.1) 0%,
+    rgba(192, 204, 218, 0.6) 50.38%,
+    rgba(192, 204, 218, 0.1) 100%
+  );
+  border-image-slice: 100%;
+  border-image-slice: 1;
+  margin-top: 69px;
+}
+.banner_footer .row,
+.banner_footer.row {
+  align-items: center;
+}
+/* img {
+  width: 100%;
+} */
+/* end header_area css*/
+/* start main_area css */
+.main_area {
+}
+.product_heading h3 {
+  color: #3a3a3a;
+  font-family: Poppins;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 70px;
+}
+.product_item {
+  padding: 17px 15px;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+}
+.product_item .star {
+  color: #fb8200;
+  margin-right: 8px;
+  margin-bottom: 5px;
+}
+.product_item .img {
+  border-radius: 5px;
+}
+.product_item .img img {
+  transition: transform 0.4s linear;
+  border-radius: 5px;
+}
+.product_item:hover .img img {
+  transform: scale(1.2);
+}
+.see_more a {
+  color: rgba(224, 44, 109, 0.87);
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 700;
+}
+.see_more a i {
+  margin-left: 8px;
+}
+/* feature_section */
+.feature_section {
+  padding: 100px 0;
+}
+.feature_section .button .primary_button_style {
+  border-radius: 0;
+}
+.feature_section .banner_title {
+  color: #0a0826;
+  font-family: Poppins;
+  font-size: 38px;
+  line-height: 60px;
+}
+.feature_img {
+  border-radius: 7px;
+  cursor: pointer;
+}
+.feature_img img {
+  border-radius: 7px;
+  transition: transform 0.3s ease-in-out;
+}
+.feature_img:hover img {
+  transform: scale(1.1);
+}
+/* end main_area css */
+/* footer_area css */
+.footer_area {
+  background: #0a0826;
+  padding: 50px 0;
+}
+.footer_heading {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 3px;
+}
+.footer_area p {
+  color: #d9dbe1;
+  font-family: "Manrope", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+}
+.social_icon a {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: #2c2640;
+  line-height: 32px;
+  color: #ffff;
+  margin-right: 16px;
+  font-size: 19px;
+}
+.social_icon a:last-child {
+  margin-right: 0;
+}
